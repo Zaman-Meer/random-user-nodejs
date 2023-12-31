@@ -1,0 +1,89 @@
+[
+    {
+        "sector": "Manufacturing",
+        "subsectors": [
+            "Construction materials",
+            "Renewable Energy",
+            {
+                "sector": "Food and Beverage",
+                "subsectors": ["Bakery & confectionery products", "Beverages", "Fish & fish products", "Meat & meat products", "Milk & dairy products", "Sweets & snack food", "Other"]
+            },
+            {
+                "sector": "Furniture",
+                "subsectors": ["Bathroom/sauna", "Bedroom", "Children’s room", "Kitchen", "Living room", "Office", "Other (Furniture)", "Outdoor", "Project furniture"]
+            },
+            {
+                "sector": "Machinery",
+                "subsectors": [
+                    "Machinery components",
+                    "Machinery equipment/tools",
+                    "Manufacture of machinery",
+                    {
+                        "sector": "Maritime",
+                        "subsectors": ["Aluminium and steel workboats", "Boat/Yacht building", "Ship repair and conversion"]
+                    },
+                    "Metal structures",
+                    "Repair and maintenance service",
+                    "Other"
+                ]
+            },
+            {
+                "sector": "Metalworking",
+                "subsectors": [
+                    "Construction of metal structures",
+                    "Houses and buildings",
+                    "Metal products",
+                    {
+                        "sector": "Metal works",
+                        "subsectors": ["CNC-machining", "Forgings, Fasteners", "Gas, Plasma, Laser cutting", "MIG, TIG, Aluminum welding"]
+                    }
+                ]
+            },
+            {
+                "sector": "Plastic and Rubber",
+                "subsectors": [
+                    "Packaging",
+                    "Plastic goods",
+                    {
+                        "sector": "Plastic processing technology",
+                        "subsectors": ["Blowing", "Moulding", "Plastics welding and processing"]
+                    },
+                    "Plastic profiles"
+                ]
+            },
+            {
+                "sector": "Printing",
+                "subsectors": ["Advertising", "Book/Periodicals printing", "Labelling and packaging printing"]
+            },
+            {
+                "sector": "Textile and Clothing",
+                "subsectors": ["Clothing", "Textile"]
+            },
+            {
+                "sector": "Wood",
+                "subsectors": ["Other (Wood)", "Wooden building materials", "Wooden houses"]
+            }
+        ]
+    },
+    {
+        "sector": "Other",
+        "subsectors": ["Creative industries", "Energy technology", "Environment"]
+    },
+    {
+        "sector": "Service",
+        "subsectors": [
+            "Business services",
+            "Engineering",
+            {
+                "sector": "Information Technology and Telecommunications",
+                "subsectors": ["Data processing, Web portals, E-marketing", "Programming, Consultancy", "Software, Hardware", "Telecommunications"]
+            },
+            "Tourism",
+            "Translation services",
+            {
+                "sector": "Transport and Logistics",
+                "subsectors": ["Air", "Rail", "Road", "Water"]
+            }
+        ]
+    }
+]
