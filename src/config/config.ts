@@ -7,7 +7,7 @@ const SERVER_PORT = process.env.SERVER_PORT || 8000;
 
 const SERVER = {
     hostname: SERVER_HOSTNAME,
-    port: SERVER_PORT
+    port: SERVER_PORT as number
 };
 
 const config = {

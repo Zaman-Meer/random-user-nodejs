@@ -13,11 +13,11 @@ mongoose
     .connect(dbUrl, {} as ConnectOptions)
     .then(() => {
         console.log('Connected to MongoDB');
-        let port: string | number = config.server.port;
-        if (port == null || port == '') {
+        let port: number = config.server.port;
+        if (port === null) {
             port = 8000;
         }
-        router.listen(port, () => {
+        router.listen(port, '0.0.0.0', () => {
             console.log(`Backend is running: ${port}`);
         });
     })
