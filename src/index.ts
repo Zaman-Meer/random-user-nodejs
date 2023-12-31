@@ -15,7 +15,7 @@ mongoose
         console.log('Connected to MongoDB');
         let port: number = config.server.port;
         if (port === null) {
-            port = 8000;
+            port = 8001;
         }
         router.listen(port, '0.0.0.0', () => {
             console.log(`Backend is running: ${port}`);
